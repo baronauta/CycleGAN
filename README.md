@@ -10,5 +10,5 @@ One function to load and pre-process images. Images can be downloaded from 'http
 ### main.py
 Before running check the configuration values (number of images, size, epoch, learning rate...); this code perform the training of the model, save in json file the training loss and store in the directory model_checkpoint the parameters for each epoch.
 
-### Inference.ipynb
+### inference.ipynb
 Load model from the directory model_checkpoint and perform image translation on the images of the validation set; plot the training loss.
